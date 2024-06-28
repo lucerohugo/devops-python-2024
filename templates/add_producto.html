@@ -1,0 +1,17 @@
+{% extends 'template_base.html' %}
+
+{% block content %}
+<form action="" method="post">
+    <label for="">ID</label>
+    <input type="number" name="id"  required>
+
+    <label for="">Producto</label>
+    <input type="text" name="producto"  required>
+
+    <label for="">Categoria(Nuevo-Usado)</label>
+    <input type="text" name="categoria"  required>
+
+    <button type="submit">Agregar</button>
+</form>
+
+{% endblock %}
